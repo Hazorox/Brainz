@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&family=Shojumaru&family=Special+Gothic:wght@400..700&display=swap');
 body{
     font-family:"Special Gothic";
-    background-image:url("./assets/bg.jpg");
+    background-image:url("assets/bg.jpg");
     text-align:center;
     color:#fffbe6;
     font-size:24px;
