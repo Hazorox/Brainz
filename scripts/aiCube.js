@@ -5,7 +5,7 @@ const scene = new three.Scene();
 const canvas = document.getElementById("aiCube");
 const camera = new three.PerspectiveCamera(
   75,
-  window.innerWidth / window.innerHeight,
+  800/600,
   0.1,
   1000,
 );
@@ -36,7 +36,7 @@ const materials = [
 const cube = new three.Mesh(geometry, materials);
 scene.add(cube)
 camera.position.z =3;
-renderer.setSize(window.innerWidth,window.innerHeight);
+renderer.setSize(800,600);
 function animate() {
     requestAnimationFrame(animate)
   cube.rotation.x += 0.01;
